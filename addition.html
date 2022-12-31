@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Add Numbers</h1>
+    <b>Enter first Number: </b><br />
+    <input type="text" id="k1" /><br />
+    <b>Enter second Number: </b><br />
+    <input type="text" id="k2" /><br /><br />
+    <input id="k3" type="text" placeholder="Answer" />
+    <button type="button" id="btnSum" value="Calculate SUM" onClick="numadd()">
+      Answer
+    </button>
+    <button id="clr" onclick="clearme()" type="button">Clear</button>
+    <script src="addition.js"></script>
+    <br /><br />
+    <h1>Forms 2</h1>
+    <form action="">
+      <p>Enter First Number:<input id="one" type="text" /></p>
+      <p>Enter Second Number:<input id="two" type="text" /></p>
+      <button id="btn1" onclick="submit()" type="button">
+        Add, Substraction, Multiply, Divide
+      </button>
+      <p id="result" style="display: none ;">
+      <p>Addition Result <input id="add" type="text" /></p>
+      <p>Subtration Result <input id="sub" type="text" /></p>
+      <p>Multiplication Result <input id="multiply" type="text" /></p>
+      <p>Division Result <input id="divide" type="text" /></p></p>
+      <button id="btn2" onclick="reset()" type="button">Clear me</button>
+    </form>
+    <script src="addition.js"></script>
+  </body>
+</html>
