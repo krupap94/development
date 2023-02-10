@@ -1,0 +1,23 @@
+.dbox {
+  /* height: 30px; */
+  border: 2px solid blue;
+}
+.cbox {
+  border: 3px solid;
+  height: 500px;
+}
+.container1 {
+  border: 5px solid black;
+}
+.row1 {
+  border: 3px solid red;
+}
+.pink {
+  background: pink;
+}
+.blue {
+  background: #007bff;
+}
+.orange {
+  background: orange;
+}

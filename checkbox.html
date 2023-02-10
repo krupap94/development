@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Checkbox Lab 1</h1>
+    <h2>Application platform</h2>
+    <div>
+      Mobile<input type="checkbox" name="Mobile" id="mobile" /> Web<input
+        type="checkbox"
+        name="Web"
+        id="web"
+      />
+      Desktop<input type="checkbox" name="Desktop" id="desktop" />
+    </div>
+    <div>
+      <input
+        type="button"
+        id="btn1"
+        value="Submit selection"
+        onclick="showme()"
+      />
+    </div>
+    <div>
+      <input
+        type="button"
+        id="btn2"
+        value="Clear Selection"
+        onclick="clearme()"
+      />
+    </div>
+    <div>Selection is :<input id="selection" /></div>
+    <script src="checkbox.js"></script>
+  </body>
+</html>

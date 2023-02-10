@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Select Languages</h1>
+    <div>
+      <input type="radio" id="python" name="language" /><label for="python"
+        >Python</label
+      >
+    </div>
+    <div>
+      <input type="radio" id="Javascript" name="language" checked /><label
+        for="Javascript"
+        >Javascript</label
+      >
+    </div>
+    <div>
+      <input
+        type="button"
+        value="Find selected language"
+        name="language"
+        onclick="displayresult()"
+      /><label for="python"></label>
+    </div>
+    <div>Selected language is <input type="text" id="result" /></div>
+    <hr />
+    <h1>If statement lab</h1>
+    <h3>
+      If marks obtain in both the subjects >=35 then display pass otherwise
+      display fail
+    </h3>
+    <div>Math<input id="math" /></div>
+    <div>Science<input id="science" /></div>
+    <div>English<input id="english" /></div>
+    <div>
+      <input type="button" value="Display Result" onclick="getanswer()" />
+    </div>
+    <div>Result<input id="result1" /></div>
+    <script src="radiobutton.js"></script>
+  </body>
+</html>
