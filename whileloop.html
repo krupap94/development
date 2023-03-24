@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>While Loop</title>
     <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.css" />
+    <!-- <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.css" /> -->
   </head>
 
   <body>
     <h1>Example Realted To While Loop</h1>
     <h3>To Determine the Output Of The Program</h3>
-    <div class="container">
+    <div class="">
       <div class="row">
         <div class="col-lg-2">
           <div class="card mb-3">
@@ -93,7 +93,7 @@
       />
     </div>
     <div>Result: <input id="result" /></div> -->
-    <div class="container">
+    <div class="">
       <div class="row">
         <div class="card-body">
           <h4 class="text-primary">To find sum of digits of a value</h4>
@@ -110,5 +110,47 @@
         </div>
       </div>
     </div>
+    <hr />
+    <div class="">
+      <div class="row">
+        <div class="card-body">
+          <h4 class="text-primary">To find sum of digits of a value</h4>
+          <div>Enter a value: <input class="offset-1" id="value1" /></div>
+          <div>
+            <input
+              class="btn btn-primary offset-2"
+              type="button"
+              onclick="answerme6()"
+              value="get sum of digits"
+            />
+          </div>
+          <div>Result: <input class="offset-1" id="result1" /></div>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <h3>To count number of even-odd-zeros</h3>
+    <div>Enter a value:<input id="value2" /></div>
+    <input
+      class="btn btn-primary"
+      type="button"
+      onclick="summe1()"
+      value="Get number even-odd-zeros"
+    />
+    <div>
+      Even:<input id="even" /> Odd:<input id="odd" /> Zeros:<input id="zero" />
+    </div>
+    <hr />
+    <h3>Find reserve value</h3>
+    <div>Enter a value:<input id="value3" /></div>
+    <input
+      class="btn btn-primary"
+      type="button"
+      onclick="summe2()"
+      value="Get reverse number"
+    />
+    <div>Answer<input id="answer1" /></div>
+
+    <script src="whileloop.js"></script>
   </body>
 </html>

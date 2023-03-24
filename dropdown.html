@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.min.css" />
+  </head>
+
+  <body>
+    <h1>Dropdown</h1>
+    <div>
+      Choose a browser:
+      <select name="browser" id="browser">
+        <option value="1">Microsft Edge</option>
+        <option value="2">Google Chrome</option>
+        <option value="3">Mozilla Firefox</option></select
+      ><br />
+      <div>
+        <input
+          type="button"
+          onclick="clickme1()"
+          value="Get Selected Browser"
+        />
+        <input
+          type="button"
+          onclick="clickme2()"
+          value="Set Selected Browser"
+        />
+        <input type="button" onclick="clickme3()" value="Get all" />
+      </div>
+      <div>Selected browser is:<input id="selected" /></div>
+    </div>
+    <hr />
+    <div>
+      Choose a soap:
+      <select name="soap" id="soap" size="4" multiple>
+        <option value="101">Dettol</option>
+        <option value="102">Cinthol</option>
+        <option value="103">Hamam</option>
+        <option value="104">Dove</option></select
+      ><br />
+      <div>
+        <input
+          class="btn btn-primary"
+          type="button"
+          onclick="clickme3()"
+          value="select me"
+        />
+        <input type="button" onclick="selectall()" value="Select all" />
+        <input type="button" onclick="removeall()" value="Remove all" />
+        <input type="button" onclick="invertall()" value="invert all" />
+      </div>
+    </div>
+
+    <script src="dropdown.js"></script>
+  </body>
+</html>
